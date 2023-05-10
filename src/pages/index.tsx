@@ -1,9 +1,12 @@
+import { Box, Container, Text } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
+import Hero from "../components/clients/hero";
 
-const Home = () => (
+const Clients = () => (
   <>
     <NextSeo title="Home" />
+    <Hero />
   </>
 );
 
-export default Home;
+export default Clients;

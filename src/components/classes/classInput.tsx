@@ -171,7 +171,7 @@ const ClassInput = ({ type }: { type: any }) => {
           Coach Description
         </Text>
         <Textarea
-          ref={nameRef}
+          ref={descRef}
           placeholder={`${data?.description ? data?.description : "ichigo..."}`}
           _placeholder={{ color: "grey" }}
           size={"md"}
@@ -182,7 +182,7 @@ const ClassInput = ({ type }: { type: any }) => {
           Coach Brief
         </Text>
         <Input
-          ref={nameRef}
+          ref={briefRef}
           placeholder={`${data?.coach_brief ? data?.coach_brief : "ichigo..."}`}
           _placeholder={{ color: "grey" }}
           size={"md"}
